@@ -21,6 +21,8 @@ function App() {
 }
 
 const headerStyle = {
+  position: 'sticky',
+  top: 0,
   textAlign: 'center',
   color: 'white',
   height: 108,
@@ -35,7 +37,7 @@ const titleStyle = {
 
 const contentStyle = {
   textAlign: 'center',
-  minHeight: 120,
+  minHeight: 2400,
   lineHeight: '120px',
   color: '#fff',
 };
