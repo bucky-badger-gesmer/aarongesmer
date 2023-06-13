@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, Typography } from 'antd';
 
 const { Header, Content, Footer } = Layout;
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 function App() {
   return (
@@ -13,6 +13,10 @@ function App() {
         </Header>
         <Content style={contentStyle}>
           <Title level={2}>Hello, World!</Title>
+          <Text style={textStyle}>There are so many things in this world that interest me, but I am particularly passionate about playing the guitar, cooking, and especially technology. I love watching the NBA, and am a huge fan of the Minnesota Timberwolves! </Text>
+          <div>
+            <Title level={3}>Experience</Title>
+          </div>
         </Content>
         <Footer style={footerStyle}>This site was built with React and Ant Design.</Footer>
       </Layout>
@@ -38,8 +42,13 @@ const titleStyle = {
 const contentStyle = {
   textAlign: 'center',
   minHeight: 2400,
-  lineHeight: '120px',
   color: '#fff',
+  paddingLeft: 24,
+  paddingRight: 24,
+};
+
+const textStyle = {
+  textAlign: 'justify',
 };
 
 const footerStyle = {
