@@ -5,7 +5,7 @@ import { faReact } from '@fortawesome/free-brands-svg-icons'
 import { AntDesignOutlined } from '@ant-design/icons';
 
 const { Header, Content, Footer } = Layout;
-const { Title, Text } = Typography;
+const { Title, Text, Link } = Typography;
 
 function App() {
   return (
@@ -19,19 +19,43 @@ function App() {
           <Text>There are so many things in this world that interest me, but I am particularly passionate about playing the guitar, cooking, and especially technology. I love watching the NBA, and am a huge fan of the Minnesota Timberwolves! </Text>
             <Title level={3}>Experience</Title>
               <Timeline
+                mode='alternate'
                 style={timelineStyle}
                 items={[
                   {
-                    children: 'Create a services site 2015-09-01',
+                    children:
+                      <>
+                        <Title level={4}>May 13th 2017</Title>
+                        Graduated from the University of Wisconsin with a Bachelor of Arts in Computer Science and a Certificate in Mathematics
+                      </>,
                   },
                   {
-                    children: 'Solve initial network problems 2015-09-01',
+                    children:
+                      <>
+                        <Title level={4}>June 12th 2017</Title>
+                        Software Engineer I at <Link>Cleo</Link>
+                      </>,
                   },
                   {
-                    children: 'Technical testing 2015-09-01',
+                    children:
+                      <>
+                        <Title level={4}>June 12th 2018</Title>
+                        Test Engineer I at <Link>Cleo</Link>
+                      </>,
                   },
                   {
-                    children: 'Network problems being solved 2015-09-01',
+                    children:
+                      <>
+                        <Title level={4}>November 18th 2019</Title>
+                        Frontend Engineer at <Link>STEALTHbits (now Netwrix)</Link>
+                      </>,
+                  },
+                  {
+                    children:
+                      <>
+                        <Title level={4}>August 16th 2021</Title>
+                        Software Engineer - P2 at <Link>Mission Lane</Link>
+                      </>
                   },
                 ]}
               />
