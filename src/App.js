@@ -1,11 +1,11 @@
 import React from 'react';
-import { Layout, Typography, Timeline, Card, Avatar } from 'antd';
+import { Layout, Typography, Timeline, Card } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons'
 import { AntDesignOutlined, GithubOutlined, LinkedinOutlined, TwitterOutlined } from '@ant-design/icons';
 
 const { Header, Content, Footer } = Layout;
-const { Title, Text, Link } = Typography;
+const { Title, Link } = Typography;
 const { Meta } = Card;
 
 function App() {
