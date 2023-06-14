@@ -2,7 +2,7 @@ import React from 'react';
 import { Layout, Typography, Timeline, Card } from 'antd';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faReact } from '@fortawesome/free-brands-svg-icons'
-import { AntDesignOutlined, GithubOutlined, LinkedinOutlined, TwitterOutlined } from '@ant-design/icons';
+import { AntDesignOutlined, GithubOutlined, LinkedinOutlined, FacebookOutlined } from '@ant-design/icons';
 
 const { Header, Content, Footer } = Layout;
 const { Title, Link } = Typography;
@@ -19,16 +19,18 @@ function App() {
           <Card
             style={{ marginTop: 24 }}
             cover={
-              <img
-                style={imageStyle}
-                alt="example"
-                src="/avatar.jpeg"
-              />
+              <div style={coverStyle}>
+                <img
+                  style={imageStyle}
+                  alt="Aaron Gesmer's Avatar"
+                  src="/avatar.jpeg"
+                />
+              </div>
             }
             actions={[
-              <LinkedinOutlined />,
-              <GithubOutlined />,
-              <TwitterOutlined />,
+              <Link href="https://github.com/bucky-badger-gesmer/" target="_blank"><GithubOutlined /> Github</Link>,
+              <Link href="https://www.linkedin.com/in/aaron-gesmer-4388b77b/" target="_blank"><LinkedinOutlined/> LinkedIn</Link>,
+              <Link href="https://www.facebook.com/aaron.gesmer/" target="_blank"><FacebookOutlined /> Facebook</Link>,
             ]}
           >
             <Meta
@@ -103,7 +105,7 @@ const titleStyle = {
 
 const contentStyle = {
   textAlign: 'center',
-  maxWidth: 700,
+  maxWidth: 800,
   color: '#fff',
   marginLeft: 'auto',
   marginRight: 'auto',
@@ -111,11 +113,16 @@ const contentStyle = {
   paddingRight: 24,
 };
 
-const imageStyle = {
-  width: '75%',
+const coverStyle = {
+  width: '100%',
+  maxWidth: 500,
   marginLeft: 'auto',
-  marginRight: 'auto',
-  marginTop: 48 
+  marginRight: 'auto'
+};
+
+const imageStyle = {
+  width: '100%',
+  height: 'auto'
 };
 
 const timelineStyle = {
