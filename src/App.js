@@ -20,6 +20,7 @@ function App() {
             style={{ marginTop: 24 }}
             cover={
               <img
+                style={imageStyle}
                 alt="example"
                 src="/avatar.jpeg"
               />
@@ -102,13 +103,19 @@ const titleStyle = {
 
 const contentStyle = {
   textAlign: 'center',
-  minHeight: 2400,
   maxWidth: 700,
   color: '#fff',
   marginLeft: 'auto',
   marginRight: 'auto',
   paddingLeft: 24,
   paddingRight: 24,
+};
+
+const imageStyle = {
+  width: '75%',
+  marginLeft: 'auto',
+  marginRight: 'auto',
+  marginTop: 48 
 };
 
 const timelineStyle = {
