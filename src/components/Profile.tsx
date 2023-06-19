@@ -2,6 +2,7 @@ import {
   GithubOutlined,
   LinkedinOutlined,
   FacebookOutlined,
+  MailOutlined,
 } from "@ant-design/icons";
 import { Card, Layout, Timeline, Typography } from "antd";
 import Meta from "antd/es/card/Meta";
@@ -33,14 +34,14 @@ const Profile = () => {
           >
             <LinkedinOutlined /> LinkedIn
           </Link>,
-          <Link href="https://www.facebook.com/aaron.gesmer/" target="_blank">
-            <FacebookOutlined /> Facebook
+          <Link href="mailto:aaron.gesmer@gmail.com">
+            <MailOutlined /> Email
           </Link>,
         ]}
       >
         <Meta
           title="Hello, World!"
-          description="There are so many things in this world that interest me, but I am particularly passionate about playing the guitar, cooking, and especially technology. I love watching the NBA, and am a huge fan of the Minnesota Timberwolves! "
+          description="There are so many things in this world that interest me, but I am particularly passionate about playing the guitar, collecting watches, cooking, and especially technology. I love watching the NBA, and am a huge fan of the Minnesota Timberwolves! "
         />
       </Card>
       <Title level={3}>Experience</Title>
