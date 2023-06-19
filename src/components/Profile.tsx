@@ -41,7 +41,7 @@ const Profile = () => {
       >
         <Meta
           title="Hello, World!"
-          description="There are so many things in this world that interest me, but I am particularly passionate about playing the guitar, collecting watches, cooking, and especially technology. I love watching the NBA, and am a huge fan of the Minnesota Timberwolves! "
+          description="There are so many things in this world that interest me, but I am particularly passionate about playing the guitar, collecting watches, cooking, and especially technology. I love watching the NBA, and am a huge fan of the Minnesota Timberwolves!"
         />
       </Card>
       <Title level={3}>Experience</Title>
@@ -53,8 +53,10 @@ const Profile = () => {
             children: (
               <>
                 <Title level={4}>May 13th 2017</Title>
-                Graduated from the University of Wisconsin with a Bachelor of
-                Arts in Computer Science and a Certificate in Mathematics
+                Graduated from the University of Wisconsin
+                <Title level={5}>Degree(s):</Title>
+                Bachelor of Arts in Computer Science | Certificate in
+                Mathematics
               </>
             ),
           },
@@ -62,7 +64,10 @@ const Profile = () => {
             children: (
               <>
                 <Title level={4}>June 12th 2017</Title>
-                Software Engineer I at <Link>Cleo</Link>
+                Software Engineer I at{" "}
+                <Link href="https://www.cleo.com/" target="_blank">
+                  Cleo
+                </Link>
               </>
             ),
           },
@@ -70,7 +75,10 @@ const Profile = () => {
             children: (
               <>
                 <Title level={4}>June 12th 2018</Title>
-                Test Engineer I at <Link>Cleo</Link>
+                Test Engineer I at{" "}
+                <Link href="https://www.cleo.com/" target="_blank">
+                  Cleo
+                </Link>
               </>
             ),
           },
@@ -78,7 +86,10 @@ const Profile = () => {
             children: (
               <>
                 <Title level={4}>November 18th 2019</Title>
-                Frontend Engineer at <Link>STEALTHbits (now Netwrix)</Link>
+                Frontend Engineer at{" "}
+                <Link href="https://www.netwrix.com/" target="_blank">
+                  STEALTHbits (now Netwrix)
+                </Link>
               </>
             ),
           },
@@ -86,7 +97,16 @@ const Profile = () => {
             children: (
               <>
                 <Title level={4}>August 16th 2021</Title>
-                Software Engineer - P2 at <Link>Mission Lane</Link>
+                Software Engineer - P2 at{" "}
+                <Link href="https://www.missionlane.com/">Mission Lane</Link>
+              </>
+            ),
+          },
+          {
+            children: (
+              <>
+                <Title level={4}>June 6th 2023</Title>
+                Looking for my next adventure!
               </>
             ),
           },
