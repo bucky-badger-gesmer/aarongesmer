@@ -1,7 +1,6 @@
 import {
   GithubOutlined,
   LinkedinOutlined,
-  FacebookOutlined,
   MailOutlined,
 } from "@ant-design/icons";
 import { Card, Layout, Timeline, Typography, Carousel } from "antd";
