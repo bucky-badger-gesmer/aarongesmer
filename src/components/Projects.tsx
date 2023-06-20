@@ -1,4 +1,5 @@
 import { Card, Carousel, Typography } from "antd";
+import { LinkOutlined } from "@ant-design/icons";
 
 const { Link, Title } = Typography;
 
@@ -26,7 +27,7 @@ const Projects = () => {
                 target="_blank"
                 style={{ color: "inherit" }}
               >
-                SportQL Apollo Server
+                SportQL Apollo Server <LinkOutlined />
               </Link>
             </h3>
           </div>
@@ -46,7 +47,7 @@ const Projects = () => {
                 target="_blank"
                 style={{ color: "inherit" }}
               >
-                SportQL Client React App
+                SportQL Client React App <LinkOutlined />
               </Link>
             </h3>
           </div>
