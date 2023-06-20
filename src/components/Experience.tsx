@@ -3,7 +3,7 @@ const { Title, Link, Text } = Typography;
 
 const Experience = () => {
   return (
-    <div>
+    <div className="mb-4 md:mb-0">
       <Card>
         <Title className="text-center" level={2}>
           Experience

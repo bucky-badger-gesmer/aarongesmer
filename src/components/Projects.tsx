@@ -4,7 +4,7 @@ const { Link, Title } = Typography;
 
 const Projects = () => {
   return (
-    <div>
+    <div className="mb-4 md:mb-0">
       <Card>
         <Title className="text-center" level={2}>
           Projects

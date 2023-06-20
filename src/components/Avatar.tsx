@@ -9,7 +9,7 @@ const { Link, Title, Text } = Typography;
 
 const Avatar = () => {
   return (
-    <div>
+    <div className="mb-4 md:mb-0">
       <Card
         cover={
           <div>
