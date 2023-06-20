@@ -2,7 +2,7 @@ import { Layout } from "antd";
 import Avatar from "./Avatar";
 import Experience from "./Experience";
 import Projects from "./Projects";
-import Watches from "./Watches";
+// import Watches from "./Watches";
 
 const { Content } = Layout;
 
