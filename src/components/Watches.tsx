@@ -1,6 +1,6 @@
 import { Card, Carousel, Typography } from "antd";
 
-const { Title, Text } = Typography;
+const { Title } = Typography;
 
 const Watches = () => {
   return (
