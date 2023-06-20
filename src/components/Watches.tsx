@@ -1,14 +1,12 @@
 import { Card, Carousel, Typography } from "antd";
 
-const { Title } = Typography;
+const { Title, Text } = Typography;
 
 const Watches = () => {
   return (
-    <div className="mb-4 md:mb-0">
+    <div className="mb-4 md:mb-0 text-center">
       <Card>
-        <Title className="text-center" level={2}>
-          Watches
-        </Title>
+        <Title level={2}>Watch Collection</Title>
         <Carousel>
           <div>
             <img alt="Rolex 124060" src="/Rolex_124060.jpeg" />
