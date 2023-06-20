@@ -12,13 +12,13 @@ const App = () => {
   return (
     <div className="App">
       <Layout>
-        <Header className="sticky top-0 z-10 shadow-lg text-center md:text-left">
+        <Header className="sticky top-0 z-10 shadow-lg text-center md:text-left bg-sky-500">
           <Title className="mt-2" style={{ color: "white" }}>
             Aaron Gesmer
           </Title>
         </Header>
         <Profile />
-        <Footer className="text-center bg-sky-500 text-white">
+        <Footer className="text-center bg-sky-300 text-white">
           This site was built with React <FontAwesomeIcon icon={faReact} /> and
           Ant Design <AntDesignOutlined />
         </Footer>
