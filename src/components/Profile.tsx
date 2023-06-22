@@ -8,7 +8,7 @@ const { Content } = Layout;
 const Profile = () => {
   return (
     <Content>
-      <div className="gap-4 p-4 sm:p-12 md:grid md:grid-cols-2 md:gap-8 md:p-8">
+      <div className="gap-4 p-4 sm:p-12 md:grid md:grid-cols-2 md:gap-8 md:p-8 lg:gap-16 lg:p-16">
         <Avatar />
         <Experience />
         <Projects />
