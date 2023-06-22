@@ -27,14 +27,8 @@ const Projects = () => {
           </div>
           <div>
             <h3
-              style={{
-                margin: 0,
-                height: "160px",
-                color: "#fff",
-                // lineHeight: "160px",
-                textAlign: "center",
-                background: "#364d79",
-              }}
+              style={{ lineHeight: "160px" }}
+              className="m-0 h-160 text-center text-white bg-cyan-600"
             >
               <Link
                 href="https://sportql-client.netlify.app"
