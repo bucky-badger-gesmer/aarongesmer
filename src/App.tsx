@@ -12,8 +12,8 @@ const App = () => {
   return (
     <div className="App">
       <Layout>
-        <Header className="sticky top-0 z-10 shadow-lg text-center md:text-left bg-sky-500">
-          <Title className="mt-2" style={{ color: "white" }}>
+        <Header className="sticky top-0 z-10 shadow-lg text-center bg-sky-500 md:text-left md:h-20">
+          <Title className="mt-1 md:mt-3" style={{ color: "white" }}>
             Aaron Gesmer
           </Title>
         </Header>
