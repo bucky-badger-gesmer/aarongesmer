@@ -21,7 +21,7 @@ const Avatar = () => {
             <GithubOutlined /> Github
           </Link>,
           <Link
-            href="https://www.linkedin.com/in/aaron-gesmer-4388b77b/"
+            href="https://www.linkedin.com/in/aaron-gesmer/"
             target="_blank"
           >
             <LinkedinOutlined /> LinkedIn
