@@ -1,1 +1,1 @@
-Moving this over to Remix from `create-react-app`.
+Moving this over to NextJS from `create-react-app`.
