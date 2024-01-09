@@ -23,10 +23,9 @@ const Contact: React.FC = () => {
               <div style={styles.cardContainer}>
                 <IonCard>
                   <IonCardHeader>
-                    <IonCardTitle>Card Title</IonCardTitle>
+                    <IonCardTitle>Let's Connect!</IonCardTitle>
                     <IonCardSubtitle>Card Subtitle</IonCardSubtitle>
                   </IonCardHeader>
-
                   <IonCardContent>
                     Here's a small text description for the card content.
                     Nothing more, nothing less.

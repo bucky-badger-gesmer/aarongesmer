@@ -118,7 +118,13 @@ const About: React.FC = () => {
                               children: (
                                 <>
                                   <Title level={4}>August 28th 2023</Title>
-                                  Senior Software Engineer at Poplin
+                                  Senior Software Engineer at{" "}
+                                  <Link
+                                    href="https://www.poplin.co/"
+                                    target="_blank"
+                                  >
+                                    Poplin
+                                  </Link>
                                 </>
                               ),
                             },
