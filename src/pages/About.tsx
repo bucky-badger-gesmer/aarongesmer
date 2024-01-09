@@ -24,7 +24,7 @@ const About: React.FC = () => {
               <div style={styles.cardContainer}>
                 <IonCard>
                   <div style={styles.cardContentContainer}>
-                    <img alt="Experience Image" src="public/experience.png" />
+                    <img alt="Experience Image" src="/public/experience.png" />
                     <IonCardHeader>
                       <IonCardTitle>Experience</IonCardTitle>
                     </IonCardHeader>
