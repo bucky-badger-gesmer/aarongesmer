@@ -29,10 +29,7 @@ const Home: React.FC = () => {
               <div style={styles.cardContainer}>
                 <IonCard>
                   <div style={styles.cardContentContainer}>
-                    <img
-                      alt="Silhouette of mountains"
-                      src="public/avatar.png"
-                    />
+                    <img alt="Avatar Image" src="public/avatar.png" />
                     <IonCardHeader>
                       <IonCardTitle>Hello World!</IonCardTitle>
                       <IonCardSubtitle>
