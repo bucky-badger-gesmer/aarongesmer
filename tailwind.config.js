@@ -1,11 +1,9 @@
-module.exports = {
-  content: [    
-    './pages/**/*.{js,ts,jsx,tsx}',
-    './components/**/*.{js,ts,jsx,tsx}',
-  ],
-  darkMode: 'media',
+/** @type {import('tailwindcss').Config} */
+export default {
+  purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
   theme: {
     extend: {},
   },
   plugins: [],
-};
+}
+
