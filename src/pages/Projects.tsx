@@ -5,6 +5,12 @@ import { ProjectCardProps } from "../components/ProjectCard";
 const Projects: React.FC = () => {
   const projects: ProjectCardProps[] = [
     {
+      title: "Numbers API App",
+      description: "Ionic/React application giving fun facts about numbers",
+      _link: "https://numbers-api-app.netlify.app",
+      sourceCodeLink: "https://github.com/bucky-badger-gesmer/numbers-app",
+    },
+    {
       title: "Modern Angular App",
       description: "Ionic/Angular movie application",
       _link: "https://modern-angular-app.netlify.app",
