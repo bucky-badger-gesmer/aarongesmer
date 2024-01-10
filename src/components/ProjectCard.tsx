@@ -42,7 +42,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 src="https://ionicframework.com/docs/img/demos/thumbnail.svg"
               />
             </IonThumbnail>
-            {description}
+            <div style={{ padding: "12px 0 12px 0" }}>{description}</div>
           </IonItem>
         </IonCardContent>
         <div

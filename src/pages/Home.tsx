@@ -25,26 +25,24 @@ const Home: React.FC = () => {
           <IonRow>
             <IonCol>
               <div style={styles.cardContainer}>
-                <IonCard>
-                  <div style={styles.cardContentContainer}>
-                    <img alt="Avatar Image" src="/avatar.png" />
-                    <IonCardHeader>
-                      <IonCardTitle>Hello, World!</IonCardTitle>
-                      <IonCardSubtitle>
-                        My name is Aaron. Some people call me A-A-Ron ¯\_(ツ)_/¯
-                      </IonCardSubtitle>
-                    </IonCardHeader>
-                    <IonCardContent style={{ padding: "0 24px 24px 24px" }}>
-                      <p>
-                        There are so many things in this world that interest me,
-                        but I am particularly passionate about playing the
-                        guitar, collecting watches, cooking, and especially
-                        technology. I love watching the NBA, and am a huge fan
-                        of the Minnesota Timberwolves! 🐺🐺🐺
-                      </p>
-                      <br />
-                    </IonCardContent>
-                  </div>
+                <IonCard style={styles.cardContentContainer}>
+                  <img alt="Avatar Image" src="/avatar.png" />
+                  <IonCardHeader>
+                    <IonCardTitle>Hello, World!</IonCardTitle>
+                    <IonCardSubtitle>
+                      My name is Aaron. Some people call me A-A-Ron ¯\_(ツ)_/¯
+                    </IonCardSubtitle>
+                  </IonCardHeader>
+                  <IonCardContent style={{ padding: "0 24px 24px 24px" }}>
+                    <p>
+                      There are so many things in this world that interest me,
+                      but I am particularly passionate about playing the guitar,
+                      collecting watches, cooking, and especially technology. I
+                      love watching the NBA, and am a huge fan of the Minnesota
+                      Timberwolves! 🐺🐺🐺
+                    </p>
+                    <br />
+                  </IonCardContent>
                 </IonCard>
               </div>
               <div style={styles.cardContainer}>
