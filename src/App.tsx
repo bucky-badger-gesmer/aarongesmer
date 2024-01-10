@@ -10,10 +10,7 @@ import {
   setupIonicReact,
 } from "@ionic/react";
 import { IonReactRouter } from "@ionic/react-router";
-import { home, information, globe } from "ionicons/icons";
-import Tab1 from "./pages/Tab1";
-import Tab2 from "./pages/Tab2";
-import Tab3 from "./pages/Tab3";
+import { home, information, codeWorking } from "ionicons/icons";
 
 import "./index.css";
 
@@ -67,8 +64,8 @@ const App: React.FC = () => (
             <IonLabel>About</IonLabel>
           </IonTabButton>
           <IonTabButton tab="contact" href="/contact">
-            <IonIcon aria-hidden="true" icon={globe} />
-            <IonLabel>Contact</IonLabel>
+            <IonIcon aria-hidden="true" icon={codeWorking} />
+            <IonLabel>Projects</IonLabel>
           </IonTabButton>
         </IonTabBar>
       </IonTabs>
