@@ -8,7 +8,7 @@ import {
   IonItem,
   IonThumbnail,
 } from "@ionic/react";
-import { code, link } from "ionicons/icons";
+import { gitBranch, link } from "ionicons/icons";
 
 export interface ProjectCardProps {
   title: string;
@@ -68,7 +68,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
               window.open(sourceCodeLink, "_blank");
             }}
           >
-            <IonIcon aria-hidden="true" icon={code} />
+            <IonIcon aria-hidden="true" icon={gitBranch} />
           </IonButton>
         </div>
       </IonCard>
