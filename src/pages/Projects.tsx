@@ -15,7 +15,7 @@ const Projects: React.FC = () => {
       title: "P2G Sovev Kinneret",
       description:
         "Website for Partnership 2Gether Initiative between St. Paul, Milwaukee, and the Sovev Kinneret Region in Israel.",
-      _link: "https://p2g-sovev-kinneret.netlifyapp",
+      _link: "https://p2g-sovev-kinneret.netlify.app",
       sourceCodeLink:
         "https://github.com/bucky-badger-gesmer/p2g-sovev-kinneret",
     },
