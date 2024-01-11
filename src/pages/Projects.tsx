@@ -5,6 +5,13 @@ import { ProjectCardProps } from "../components/ProjectCard";
 const Projects: React.FC = () => {
   const projects: ProjectCardProps[] = [
     {
+      title: "ProPublica",
+      description:
+        "Ionic/React application to interact with ProPublica's Congressional API",
+      _link: "https://propublica.netlify.app",
+      sourceCodeLink: "https://github.com/bucky-badger-gesmer/congress",
+    },
+    {
       title: "Numbers API App",
       description: "Ionic/React application giving fun facts about numbers",
       _link: "https://numbers-api-app.netlify.app",
