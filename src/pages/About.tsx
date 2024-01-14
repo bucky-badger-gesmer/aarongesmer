@@ -14,6 +14,8 @@ import { ConfigProvider, Timeline, theme, Typography } from "antd";
 const { Title, Link, Text } = Typography;
 
 const About: React.FC = () => {
+  const isDarkMode = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
   return (
     <IonPage>
       <Header />
@@ -30,7 +32,9 @@ const About: React.FC = () => {
                   <IonCardContent>
                     <ConfigProvider
                       theme={{
-                        algorithm: theme.darkAlgorithm,
+                        algorithm: isDarkMode
+                          ? theme.darkAlgorithm
+                          : theme.defaultAlgorithm,
                       }}
                     >
                       <Timeline
