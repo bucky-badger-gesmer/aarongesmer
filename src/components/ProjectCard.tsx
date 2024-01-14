@@ -54,7 +54,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         >
           <IonButton
             fill="clear"
-            style={{ color: "white" }}
             onClick={() => {
               window.open(_link, "_blank");
             }}
@@ -63,7 +62,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
           </IonButton>
           <IonButton
             fill="clear"
-            style={{ color: "white" }}
             onClick={() => {
               window.open(sourceCodeLink, "_blank");
             }}
