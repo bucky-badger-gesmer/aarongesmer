@@ -5,6 +5,20 @@ import { ProjectCardProps } from "../components/ProjectCard";
 const Projects: React.FC = () => {
   const projects: ProjectCardProps[] = [
     {
+      title: "NBA Stats",
+      description:
+        "Ionic/React application that queries the NBA Stats Apollo/GraphQL server",
+      _link: "https://nbaql.netlify.app",
+      sourceCodeLink: "https://github.com/bucky-badger-gesmer/nba-stats",
+    },
+    {
+      title: "NBA Stats Apollo/GraphQL Server",
+      description:
+        "Apollo/GraphQL server for querying the official NBA Stats API",
+      _link: "https://nbaql-staging.up.railway.app",
+      sourceCodeLink: "https://github.com/bucky-badger-gesmer/nbaql",
+    },
+    {
       title: "ProPublica",
       description:
         "Ionic/React application to interact with ProPublica's Congressional API",
@@ -55,8 +69,9 @@ const Projects: React.FC = () => {
         <IonGrid>
           <IonRow>
             <IonCol>
-              {projects.map((o) => (
+              {projects.map((o, i) => (
                 <ProjectCard
+                  key={i}
                   title={o.title}
                   description={o.description}
                   _link={o._link}
