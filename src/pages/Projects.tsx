@@ -5,6 +5,13 @@ import { ProjectCardProps } from "../components/ProjectCard";
 const Projects: React.FC = () => {
   const projects: ProjectCardProps[] = [
     {
+      title: "NextJS Dashboard",
+      description:
+        "Basic dashboard application tutorial for learning NextJS basics.",
+      _link: "https://nextjs-dashboard-aaron.vercel.app",
+      sourceCodeLink: "https://github.com/bucky-badger-gesmer/nextjs-dashboard",
+    },
+    {
       title: "NBA Stats",
       description:
         "Ionic/React application that queries the NBA Stats Apollo/GraphQL server",
