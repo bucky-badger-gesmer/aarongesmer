@@ -39,17 +39,17 @@ const About: React.FC = () => {
                     >
                       <Timeline
                         mode="alternate"
-                        pending={
-                          <>
-                            <Title level={4}>January 1st 2024</Title>
-                            <Text>Looking for my next adventure!</Text>
-                          </>
-                        }
+                        // pending={
+                        //   <>
+                        //     <Title level={4}>January 1st 2024</Title>
+                        //     <Text>Looking for my next adventure!</Text>
+                        //   </>
+                        // }
                         items={[
                           {
                             children: (
                               <>
-                                <Title level={4}>May 13th 2017</Title>
+                                <Title level={4}>May 2017</Title>
                                 <Text>
                                   Graduated from the University of Wisconsin
                                 </Text>
@@ -64,7 +64,7 @@ const About: React.FC = () => {
                           {
                             children: (
                               <>
-                                <Title level={4}>June 12th 2017</Title>
+                                <Title level={4}>June 2017</Title>
                                 Software Engineer I at{" "}
                                 <Link
                                   href="https://www.cleo.com/"
@@ -78,7 +78,7 @@ const About: React.FC = () => {
                           {
                             children: (
                               <>
-                                <Title level={4}>June 12th 2018</Title>
+                                <Title level={4}>June 2018</Title>
                                 Test Engineer I at{" "}
                                 <Link
                                   href="https://www.cleo.com/"
@@ -92,7 +92,7 @@ const About: React.FC = () => {
                           {
                             children: (
                               <>
-                                <Title level={4}>November 18th 2019</Title>
+                                <Title level={4}>November 2019</Title>
                                 Frontend Engineer at{" "}
                                 <Link
                                   href="https://www.netwrix.com/"
@@ -106,7 +106,7 @@ const About: React.FC = () => {
                           {
                             children: (
                               <>
-                                <Title level={4}>August 16th 2021</Title>
+                                <Title level={4}>August 2021</Title>
                                 Software Engineer - P2 at{" "}
                                 <Link
                                   href="https://www.missionlane.com/"
@@ -120,13 +120,27 @@ const About: React.FC = () => {
                           {
                             children: (
                               <>
-                                <Title level={4}>August 28th 2023</Title>
+                                <Title level={4}>August 2023</Title>
                                 Senior Software Engineer at{" "}
                                 <Link
                                   href="https://www.poplin.co/"
                                   target="_blank"
                                 >
                                   Poplin
+                                </Link>
+                              </>
+                            ),
+                          },
+                          {
+                            children: (
+                              <>
+                                <Title level={4}>February 2024</Title>
+                                QA Automation Engineer at{" "}
+                                <Link
+                                  href="https://www.augeomarketing.com/"
+                                  target="_blank"
+                                >
+                                  Augeo
                                 </Link>
                               </>
                             ),
