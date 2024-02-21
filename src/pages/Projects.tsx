@@ -5,6 +5,13 @@ import { ProjectCardProps } from "../components/ProjectCard";
 const Projects: React.FC = () => {
   const projects: ProjectCardProps[] = [
     {
+      title: "Login App",
+      description:
+        "Simple NextJS application using Supabase authentication for login.",
+      _link: "https://aaron-auth-app.vercel.app",
+      sourceCodeLink: "https://github.com/bucky-badger-gesmer/auth-app",
+    },
+    {
       title: "NextJS Dashboard",
       description:
         "Basic dashboard application tutorial for learning NextJS basics.",
